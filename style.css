@@ -1,3 +1,102 @@
 *{
-    background-color: black;
+    margin: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 280px auto;
+}
+.header h1{
+    margin-right: auto;
+    text-shadow: rgba(0, 0, 0, 0.5) 5px 5px 15px;
+}
+.header button{
+    margin-top: 20px;
+}
+.card{
+    background: linear-gradient(45deg, #7E2553, #22092C, #1D2B53);
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: snow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card p{
+    margin-bottom: 10px;
+}
+
+.buttons{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: #141E46;
+    color: snow;
+}
+
+.header{
+    padding: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    
+}
+footer{
+    margin-top: 40px;
+    background-color: #FFF5E0;
+}
+footer  img{
+    width: 40px;
+    
+}
+body{
+    background-color: #FFF5E0;
+}
+.main{
+    min-height: 85vh;
+}
+
+footer img:hover{
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+body{
+    padding-bottom: 10px;
+    min-width: 420px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.books{
+    padding: 20px;
+    background: linear-gradient(145deg, #FCF5ED, #EEE2DE, #F2FFE9);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    margin: auto;
+    /* border-radius: 20px; */
+}
+
+h1{
+    font-size: 48px;
+    width: 250px;
 }
