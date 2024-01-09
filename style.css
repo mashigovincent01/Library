@@ -13,13 +13,69 @@
 .header button{
     margin-top: 20px;
 }
+
+input[type="checkbox"]{
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    color: #FBF9F1
+}
+dialog{
+    padding: 40px;
+}
+h2{
+    color: #FBF9F1;
+    font-weight: bolder;
+}
+
+form button{
+    margin: auto;
+    margin-top: 20px;
+}
+dialog{
+    background: linear-gradient(#0F1035,#365486);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    border-style: none;
+}
+
+input[type="text"], input[type="number"]{
+    margin-bottom: 16px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+dialog{
+    margin: auto;
+}
+h2{
+    margin-bottom: 20px;
+}
+.books{
+    min-height: 200px;
+}
 .card{
     background: linear-gradient(45deg, #7E2553, #22092C, #1D2B53);
-    width: 200px;
+    width: 250px;
     padding: 20px;
+    padding-bottom: 0;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: snow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -30,7 +86,7 @@
 .buttons{
     padding-top: 10px;
     display: flex;
-    gap: 15px;
+    justify-content: center;
 
 }
 button{
@@ -69,7 +125,10 @@ body{
 .main{
     min-height: 85vh;
 }
-
+button:hover{
+    background-color: #0F1035;
+    font-weight: bold;
+}
 footer img:hover{
     transform: rotate(360deg);
     transition: transform 0.5s ease-in-out;
@@ -86,6 +145,8 @@ footer{
 }
 .books{
     padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: linear-gradient(145deg, #FCF5ED, #EEE2DE, #F2FFE9);
     display: flex;
     justify-content: center;
